@@ -3,13 +3,12 @@
     height: 200px;
     border-style: solid;
     border-color: black;
-    width: 200px;
-    height: 200px;
+    
 }
 
 .grid {
     display: flex;
-    flex-flow: row-wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-content: center;
     width: 618px;
@@ -17,6 +16,6 @@
 }
 
 .mole {
-    background-image: url('mole.jpg');
-
+    background-image: url("mole.jpg");
+    background-size: cover;
 }
